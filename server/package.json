@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "proxy": "",
+  "proxy": "http://localhost:3001/",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js"
@@ -16,4 +16,6 @@
     "mongoose": "^6.6.1"
   },
   "devDependencies": {
-    "nodemon": "
+    "nodemon": "^2.0.20"
+  }
+}
